@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-blue-light: #f0f7ff;
+    --brand-blue-subtle: #e0f2fe;
+    --brand-blue: #0284c7;
+    --brand-blue-deep: #0369a1;
+  }
+
+  body {
+    background-color: #f0f7ff;
+    color: #1e293b;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.drawing-canvas {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Custom scrollbar for horizontal carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

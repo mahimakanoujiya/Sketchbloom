@@ -1,0 +1,6 @@
+{
+  "name": "PinkSketch",
+  "description": "A cute, modern drawing-learning mobile app with step-by-step guided lessons, interactive canvas, and practice mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

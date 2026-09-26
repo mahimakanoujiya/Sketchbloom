@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#0284c7"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#38bdf8" stroke-width="12" opacity="0.4"/>
+  
+  <!-- Decorative Sparkles -->
+  <path d="M140 120 L146 138 L164 144 L146 150 L140 168 L134 150 L116 144 L134 138 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M370 100 L374 114 L388 118 L374 122 L370 136 L366 122 L352 118 L366 114 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M110 360 L114 374 L128 378 L114 382 L110 396 L106 382 L92 378 L106 374 Z" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Artist Palette & Brush Icon -->
+  <g transform="translate(40, 20)">
+    <!-- Palette Board -->
+    <path d="M 216 100 C 130 100 60 170 60 256 C 60 342 130 412 216 412 C 242 412 260 394 260 368 C 260 356 256 344 246 334 C 238 324 232 312 232 298 C 232 272 254 250 280 250 L 320 250 C 375 250 420 205 420 150 C 420 122 328 100 216 100 Z" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.15))"/>
+    
+    <!-- Paint Blobs -->
+    <circle cx="150" cy="190" r="22" fill="#0ea5e9"/>
+    <circle cx="210" cy="160" r="22" fill="#ec4899"/>
+    <circle cx="280" cy="170" r="22" fill="#eab308"/>
+    <circle cx="130" cy="270" r="22" fill="#10b981"/>
+    <circle cx="170" cy="335" r="22" fill="#8b5cf6"/>
+    
+    <!-- Palette Thumb Hole -->
+    <ellipse cx="330" cy="320" rx="24" ry="32" fill="#0284c7" transform="rotate(-25 330 320)"/>
+  </g>
+</svg>
